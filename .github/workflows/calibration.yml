@@ -18,6 +18,7 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
+
     - name: Build Lambda Docker Image
       run: |
         # Define the repository and branch dynamically
