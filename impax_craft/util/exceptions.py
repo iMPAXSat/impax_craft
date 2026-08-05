@@ -11,12 +11,12 @@ This code is based on that provided by SunPy see
 import warnings
 
 __all__ = [
-    "CRAFTWarning",
-    "CRAFTUserWarning",
     "CRAFTDeprecationWarning",
     "CRAFTPendingDeprecationWarning",
-    "warn_user",
+    "CRAFTUserWarning",
+    "CRAFTWarning",
     "warn_deprecated",
+    "warn_user",
 ]
 
 
